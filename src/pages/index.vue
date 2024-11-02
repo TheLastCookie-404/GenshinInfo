@@ -1,16 +1,14 @@
 <template>
-  <div>Lol</div>
+  <div>
+    <div>{{ genshinData }}</div>
+  </div>
 </template>
 
 <script setup lang="ts">
   onMounted(() => {
-    console.log(getApiData());
+    // console.log(getApiData());;
   });
 
-  async function getApiData() {
-    const res = await $fetch('https://gsi.fly.dev/', {
-      method: 'GET',
-    });
-    return res;
-  };
-</script>
+  const { data: genshinData } = await 
+  useFetch("https://gsi.fly.dev/characters/search?vision=Hydro&weapon=Catalyst");
+</script> 
