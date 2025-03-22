@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
-  compatibilityDate: '2024-11-01',
+  compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
   modules: [
     "@nuxt/eslint",
@@ -13,10 +13,10 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
   ],
   typescript: {
-    typeCheck: true
+    typeCheck: true,
   },
   vite: {
     plugins: [tailwindcss()],
   },
   css: ["~/assets/app.css"],
-})
+});
