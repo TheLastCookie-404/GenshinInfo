@@ -1,7 +1,9 @@
 <template>
-  <div>
+  <div data-theme="synthwave" class="absolute h-full w-full">
     <NuxtRouteAnnouncer />
     <!-- <NuxtWelcome /> -->
-    <NuxtPage />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
