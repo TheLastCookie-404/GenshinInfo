@@ -2,6 +2,6 @@
   <div>
     <Header class="bg-base-200" />
     <slot />
-    <Footer />
+    <Footer class="bg-base-200" />
   </div>
 </template>

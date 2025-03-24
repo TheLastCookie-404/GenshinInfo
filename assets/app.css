@@ -1,4 +1,15 @@
 @import "tailwindcss";
+
 @plugin "daisyui" {
   themes: all;
+}
+
+@theme {
+  --breakpoint-xs: 480px;
+}
+
+@layer components {
+  .dev {
+    outline: 1px solid red;
+  }
 }

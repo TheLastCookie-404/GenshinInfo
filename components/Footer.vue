@@ -1,6 +1,5 @@
 <template>
-  <footer
-    class="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
+  <footer class="footer sm:footer-horizontal text-neutral-content p-10">
     <aside>
       <svg
         width="50"
