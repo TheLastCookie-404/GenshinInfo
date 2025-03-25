@@ -1,5 +1,5 @@
 <template>
-  <div data-theme="synthwave" class="absolute h-full w-full">
+  <div>
     <NuxtRouteAnnouncer />
     <!-- <NuxtWelcome /> -->
     <NuxtLayout>

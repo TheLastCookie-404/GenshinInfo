@@ -1,7 +1,9 @@
 {
   "semi": true,
   "bracketSameLine": true,
-  "tabWidth": 2,
   "vueIndentScriptAndStyle": true,
+  "tabWidth": 2,
+  "printWidth": 100,
+  "htmlWhitespaceSensitivity": "ignore",
   "plugins": ["prettier-plugin-tailwindcss"]
 }
